@@ -36,36 +36,21 @@ def score(dice)
     raise GreedError, "Too many dice. Don't get greedy."
   end
 
-  dice.sort!
-
-  # test for triples
-  if dice.length >= 3 and
-     (dice[0] == dice[1]) and
-     (dice[1] == dice[2])
-      if dice[2] == 1
-        score += dice[2]*1000
+  for result in (1..6) do
+    hits = dice.count(result)
+    if hits >= 3
+      if result == 1
+        score += 1000
       else
-        score += dice[2]*100
+        score += result*100
       end
-  end
+      hits = hits - 3
+    end
 
-  # remove dice we've already scored
-  if score > 0
-    dice[0] = 0
-    dice[1] = 0
-    dice[2] = 0
-  end
-
-  # test for single 1s and 5s
-  dice.each do |die|
-    begin
-      if die == 1
-        score += 100
-      elsif die == 5
-        score += 50
-      end
-    rescue TypeError # support empty/non-integer scores by silently awarding them 0 points
-      score = score
+    if result == 1
+      score += result*hits*100
+    elsif result == 5
+      score += result*hits*10
     end
   end
 
