@@ -1,21 +1,214 @@
 = Neo Ruby Koans
 
-See http://www.y replies.
+See http://rubykoans.com/
+
+This repo probably isn't of interest to you (unless you want to see horrible ruby code), it's mainly here for my reference.
 
 = Status
 
   $ ruby path_to_enlightenment.rb
-    AboutTriangleProject2#test_illegal_triangles_throw_exceptions has damaged your karma.
+  AboutArrays#test_creating_arrays has expanded your awareness.
+  AboutArrays#test_array_literals has expanded your awareness.
+  AboutArrays#test_accessing_array_elements has expanded your awareness.
+  AboutArrays#test_slicing_arrays has expanded your awareness.
+  AboutArrays#test_arrays_and_ranges has expanded your awareness.
+  AboutArrays#test_slicing_with_ranges has expanded your awareness.
+  AboutArrays#test_pushing_and_popping_arrays has expanded your awareness.
+  AboutArrays#test_shifting_arrays has expanded your awareness.
+  AboutArrayAssignment#test_non_parallel_assignment has expanded your awareness.
+  AboutArrayAssignment#test_parallel_assignments has expanded your awareness.
+  AboutArrayAssignment#test_parallel_assignments_with_extra_values has expanded your awareness.
+  AboutArrayAssignment#test_parallel_assignments_with_splat_operator has expanded your awareness.
+  AboutArrayAssignment#test_parallel_assignments_with_too_few_variables has expanded your awareness.
+  AboutArrayAssignment#test_parallel_assignments_with_subarrays has expanded your awareness.
+  AboutArrayAssignment#test_parallel_assignment_with_one_variable has expanded your awareness.
+  AboutArrayAssignment#test_swapping_with_parallel_assignment has expanded your awareness.
+  AboutHashes#test_creating_hashes has expanded your awareness.
+  AboutHashes#test_hash_literals has expanded your awareness.
+  AboutHashes#test_accessing_hashes has expanded your awareness.
+  AboutHashes#test_accessing_hashes_with_fetch has expanded your awareness.
+  AboutHashes#test_changing_hashes has expanded your awareness.
+  AboutHashes#test_hash_is_unordered has expanded your awareness.
+  AboutHashes#test_hash_keys has expanded your awareness.
+  AboutHashes#test_hash_values has expanded your awareness.
+  AboutHashes#test_combining_hashes has expanded your awareness.
+  AboutHashes#test_default_value has expanded your awareness.
+  AboutHashes#test_default_value_is_the_same_object has expanded your awareness.
+  AboutHashes#test_default_value_with_block has expanded your awareness.
+  AboutStrings#test_double_quoted_strings_are_strings has expanded your awareness.
+  AboutStrings#test_single_quoted_strings_are_also_strings has expanded your awareness.
+  AboutStrings#test_use_single_quotes_to_create_string_with_double_quotes has expanded your awareness.
+  AboutStrings#test_use_double_quotes_to_create_strings_with_single_quotes has expanded your awareness.
+  AboutStrings#test_use_backslash_for_those_hard_cases has expanded your awareness.
+  AboutStrings#test_use_flexible_quoting_to_handle_really_hard_cases has expanded your awareness.
+  AboutStrings#test_flexible_quotes_can_handle_multiple_lines has expanded your awareness.
+  AboutStrings#test_here_documents_can_also_handle_multiple_lines has expanded your awareness.
+  AboutStrings#test_plus_will_concatenate_two_strings has expanded your awareness.
+  AboutStrings#test_plus_concatenation_will_leave_the_original_strings_unmodified has expanded your awareness.
+  AboutStrings#test_plus_equals_will_concatenate_to_the_end_of_a_string has expanded your awareness.
+  AboutStrings#test_plus_equals_also_will_leave_the_original_string_unmodified has expanded your awareness.
+  AboutStrings#test_the_shovel_operator_will_also_append_content_to_a_string has expanded your awareness.
+  AboutStrings#test_the_shovel_operator_modifies_the_original_string has expanded your awareness.
+  AboutStrings#test_double_quoted_string_interpret_escape_characters has expanded your awareness.
+  AboutStrings#test_single_quoted_string_do_not_interpret_escape_characters has expanded your awareness.
+  AboutStrings#test_single_quotes_sometimes_interpret_escape_characters has expanded your awareness.
+  AboutStrings#test_double_quoted_strings_interpolate_variables has expanded your awareness.
+  AboutStrings#test_single_quoted_strings_do_not_interpolate has expanded your awareness.
+  AboutStrings#test_any_ruby_expression_may_be_interpolated has expanded your awareness.
+  AboutStrings#test_you_can_get_a_substring_from_a_string has expanded your awareness.
+  AboutStrings#test_you_can_get_a_single_character_from_a_string has expanded your awareness.
+  AboutStrings#test_in_ruby_1_9_single_characters_are_represented_by_strings has expanded your awareness.
+  AboutStrings#test_strings_can_be_split has expanded your awareness.
+  AboutStrings#test_strings_can_be_split_with_different_patterns has expanded your awareness.
+  AboutStrings#test_strings_can_be_joined has expanded your awareness.
+  AboutStrings#test_strings_are_unique_objects has expanded your awareness.
+  AboutSymbols#test_symbols_are_symbols has expanded your awareness.
+  AboutSymbols#test_symbols_can_be_compared has expanded your awareness.
+  AboutSymbols#test_identical_symbols_are_a_single_internal_object has expanded your awareness.
+  AboutSymbols#test_method_names_become_symbols has expanded your awareness.
+  AboutSymbols#test_constants_become_symbols has expanded your awareness.
+  AboutSymbols#test_symbols_can_be_made_from_strings has expanded your awareness.
+  AboutSymbols#test_symbols_with_spaces_can_be_built has expanded your awareness.
+  AboutSymbols#test_symbols_with_interpolation_can_be_built has expanded your awareness.
+  AboutSymbols#test_to_s_is_called_on_interpolated_symbols has expanded your awareness.
+  AboutSymbols#test_symbols_are_not_strings has expanded your awareness.
+  AboutSymbols#test_symbols_do_not_have_string_methods has expanded your awareness.
+  AboutSymbols#test_symbols_cannot_be_concatenated has expanded your awareness.
+  AboutSymbols#test_symbols_can_be_dynamically_created has expanded your awareness.
+  AboutRegularExpressions#test_a_pattern_is_a_regular_expression has expanded your awareness.
+  AboutRegularExpressions#test_a_regexp_can_search_a_string_for_matching_content has expanded your awareness.
+  AboutRegularExpressions#test_a_failed_match_returns_nil has expanded your awareness.
+  AboutRegularExpressions#test_question_mark_means_optional has expanded your awareness.
+  AboutRegularExpressions#test_plus_means_one_or_more has expanded your awareness.
+  AboutRegularExpressions#test_asterisk_means_zero_or_more has expanded your awareness.
+  AboutRegularExpressions#test_the_left_most_match_wins has expanded your awareness.
+  AboutRegularExpressions#test_character_classes_give_options_for_a_character has expanded your awareness.
+  AboutRegularExpressions#test_slash_d_is_a_shortcut_for_a_digit_character_class has expanded your awareness.
+  AboutRegularExpressions#test_character_classes_can_include_ranges has expanded your awareness.
+  AboutRegularExpressions#test_slash_s_is_a_shortcut_for_a_whitespace_character_class has expanded your awareness.
+  AboutRegularExpressions#test_slash_w_is_a_shortcut_for_a_word_character_class has expanded your awareness.
+  AboutRegularExpressions#test_period_is_a_shortcut_for_any_non_newline_character has expanded your awareness.
+  AboutRegularExpressions#test_a_character_class_can_be_negated has expanded your awareness.
+  AboutRegularExpressions#test_shortcut_character_classes_are_negated_with_capitals has expanded your awareness.
+  AboutRegularExpressions#test_slash_a_anchors_to_the_start_of_the_string has expanded your awareness.
+  AboutRegularExpressions#test_slash_z_anchors_to_the_end_of_the_string has expanded your awareness.
+  AboutRegularExpressions#test_caret_anchors_to_the_start_of_lines has expanded your awareness.
+  AboutRegularExpressions#test_dollar_sign_anchors_to_the_end_of_lines has expanded your awareness.
+  AboutRegularExpressions#test_slash_b_anchors_to_a_word_boundary has expanded your awareness.
+  AboutRegularExpressions#test_parentheses_group_contents has expanded your awareness.
+  AboutRegularExpressions#test_parentheses_also_capture_matched_content_by_number has expanded your awareness.
+  AboutRegularExpressions#test_variables_can_also_be_used_to_access_captures has expanded your awareness.
+  AboutRegularExpressions#test_a_vertical_pipe_means_or has expanded your awareness.
+  AboutRegularExpressions#test_scan_is_like_find_all has expanded your awareness.
+  AboutRegularExpressions#test_sub_is_like_find_and_replace has expanded your awareness.
+  AboutRegularExpressions#test_gsub_is_like_find_and_replace_all has expanded your awareness.
+  AboutMethods#test_calling_global_methods has expanded your awareness.
+  AboutMethods#test_calling_global_methods_without_parentheses has expanded your awareness.
+  AboutMethods#test_sometimes_missing_parentheses_are_ambiguous has expanded your awareness.
+  AboutMethods#test_calling_global_methods_with_wrong_number_of_arguments has expanded your awareness.
+  AboutMethods#test_calling_with_default_values has expanded your awareness.
+  AboutMethods#test_calling_with_variable_arguments has expanded your awareness.
+  AboutMethods#test_method_with_explicit_return has expanded your awareness.
+  AboutMethods#test_method_without_explicit_return has expanded your awareness.
+  AboutMethods#test_calling_methods_in_same_class has expanded your awareness.
+  AboutMethods#test_calling_methods_in_same_class_with_explicit_receiver has expanded your awareness.
+  AboutMethods#test_calling_private_methods_without_receiver has expanded your awareness.
+  AboutMethods#test_calling_private_methods_with_an_explicit_receiver has expanded your awareness.
+  AboutMethods#test_calling_methods_in_other_objects_require_explicit_receiver has expanded your awareness.
+  AboutMethods#test_calling_private_methods_in_other_objects has expanded your awareness.
+  AboutConstants#test_nested_constants_may_also_be_referenced_with_relative_paths has expanded your awareness.
+  AboutConstants#test_top_level_constants_are_referenced_by_double_colons has expanded your awareness.
+  AboutConstants#test_nested_constants_are_referenced_by_their_complete_path has expanded your awareness.
+  AboutConstants#test_nested_classes_inherit_constants_from_enclosing_classes has expanded your awareness.
+  AboutConstants#test_subclasses_inherit_constants_from_parent_classes has expanded your awareness.
+  AboutConstants#test_who_wins_with_both_nested_and_inherited_constants has expanded your awareness.
+  AboutConstants#test_who_wins_with_explicit_scoping_on_class_definition has expanded your awareness.
+  AboutControlStatements#test_if_then_else_statements has expanded your awareness.
+  AboutControlStatements#test_if_then_statements has expanded your awareness.
+  AboutControlStatements#test_if_statements_return_values has expanded your awareness.
+  AboutControlStatements#test_if_statements_with_no_else_with_false_condition_return_value has expanded your awareness.
+  AboutControlStatements#test_condition_operators has expanded your awareness.
+  AboutControlStatements#test_if_statement_modifiers has expanded your awareness.
+  AboutControlStatements#test_unless_statement has expanded your awareness.
+  AboutControlStatements#test_unless_statement_evaluate_true has expanded your awareness.
+  AboutControlStatements#test_unless_statement_modifier has expanded your awareness.
+  AboutControlStatements#test_while_statement has expanded your awareness.
+  AboutControlStatements#test_break_statement has expanded your awareness.
+  AboutControlStatements#test_break_statement_returns_values has expanded your awareness.
+  AboutControlStatements#test_next_statement has expanded your awareness.
+  AboutControlStatements#test_for_statement has expanded your awareness.
+  AboutControlStatements#test_times_statement has expanded your awareness.
+  AboutTrueAndFalse#test_true_is_treated_as_true has expanded your awareness.
+  AboutTrueAndFalse#test_false_is_treated_as_false has expanded your awareness.
+  AboutTrueAndFalse#test_nil_is_treated_as_false_too has expanded your awareness.
+  AboutTrueAndFalse#test_everything_else_is_treated_as_true has expanded your awareness.
+  AboutTriangleProject#test_equilateral_triangles_have_equal_sides has expanded your awareness.
+  AboutTriangleProject#test_isosceles_triangles_have_exactly_two_sides_equal has expanded your awareness.
+  AboutTriangleProject#test_scalene_triangles_have_no_equal_sides has expanded your awareness.
+  AboutExceptions#test_exceptions_inherit_from_Exception has expanded your awareness.
+  AboutExceptions#test_rescue_clause has expanded your awareness.
+  AboutExceptions#test_raising_a_particular_error has expanded your awareness.
+  AboutExceptions#test_ensure_clause has expanded your awareness.
+  AboutExceptions#test_asserting_an_error_is_raised has expanded your awareness.
+  AboutTriangleProject2#test_illegal_triangles_throw_exceptions has expanded your awareness.
+  AboutIteration#test_each_is_a_method_on_arrays has expanded your awareness.
+  AboutIteration#test_iterating_with_each has expanded your awareness.
+  AboutIteration#test_each_can_use_curly_brace_blocks_too has expanded your awareness.
+  AboutIteration#test_break_works_with_each_style_iterations has expanded your awareness.
+  AboutIteration#test_collect_transforms_elements_of_an_array has expanded your awareness.
+  AboutIteration#test_select_selects_certain_items_from_an_array has expanded your awareness.
+  AboutIteration#test_find_locates_the_first_element_matching_a_criteria has expanded your awareness.
+  AboutIteration#test_inject_will_blow_your_mind has expanded your awareness.
+  AboutIteration#test_all_iteration_methods_work_on_any_collection_not_just_arrays has expanded your awareness.
+  AboutBlocks#test_methods_can_take_blocks has expanded your awareness.
+  AboutBlocks#test_blocks_can_be_defined_with_do_end_too has expanded your awareness.
+  AboutBlocks#test_blocks_can_take_arguments has expanded your awareness.
+  AboutBlocks#test_methods_can_call_yield_many_times has expanded your awareness.
+  AboutBlocks#test_methods_can_see_if_they_have_been_called_with_a_block has expanded your awareness.
+  AboutBlocks#test_block_can_affect_variables_in_the_code_where_they_are_created has expanded your awareness.
+  AboutBlocks#test_blocks_can_be_assigned_to_variables_and_called_explicitly has expanded your awareness.
+  AboutBlocks#test_stand_alone_blocks_can_be_passed_to_methods_expecting_blocks has expanded your awareness.
+  AboutBlocks#test_methods_can_take_an_explicit_block_argument has expanded your awareness.
+  AboutSandwichCode#test_counting_lines has expanded your awareness.
+  AboutSandwichCode#test_finding_lines has expanded your awareness.
+  AboutSandwichCode#test_counting_lines2 has expanded your awareness.
+  AboutSandwichCode#test_finding_lines2 has expanded your awareness.
+  AboutSandwichCode#test_open_handles_the_file_sandwich_when_given_a_block has expanded your awareness.
+  AboutScoringProject#test_score_of_an_empty_list_is_zero has expanded your awareness.
+  AboutScoringProject#test_score_of_a_single_roll_of_5_is_50 has expanded your awareness.
+  AboutScoringProject#test_score_of_a_single_roll_of_1_is_100 has expanded your awareness.
+  AboutScoringProject#test_score_of_multiple_1s_and_5s_is_the_sum_of_individual_scores has expanded your awareness.
+  AboutScoringProject#test_score_of_single_2s_3s_4s_and_6s_are_zero has expanded your awareness.
+  AboutScoringProject#test_score_of_a_triple_1_is_1000 has expanded your awareness.
+  AboutScoringProject#test_score_of_other_triples_is_100x has expanded your awareness.
+  AboutScoringProject#test_score_of_mixed_is_sum has expanded your awareness.
+  AboutClasses#test_instances_of_classes_can_be_created_with_new has expanded your awareness.
+  AboutClasses#test_instance_variables_can_be_set_by_assigning_to_them has expanded your awareness.
+  AboutClasses#test_instance_variables_cannot_be_accessed_outside_the_class has expanded your awareness.
+  AboutClasses#test_you_can_politely_ask_for_instance_variable_values has expanded your awareness.
+  AboutClasses#test_you_can_rip_the_value_out_using_instance_eval has expanded your awareness.
+  AboutClasses#test_you_can_create_accessor_methods_to_return_instance_variables has expanded your awareness.
+  AboutClasses#test_attr_reader_will_automatically_define_an_accessor has expanded your awareness.
+  AboutClasses#test_attr_accessor_will_automatically_define_both_read_and_write_accessors has expanded your awareness.
+  AboutClasses#test_initialize_provides_initial_values_for_instance_variables has expanded your awareness.
+  AboutClasses#test_args_to_new_must_match_initialize has expanded your awareness.
+  AboutClasses#test_different_objects_have_different_instance_variables has expanded your awareness.
+  AboutClasses#test_inside_a_method_self_refers_to_the_containing_object has expanded your awareness.
+  AboutClasses#test_to_s_provides_a_string_version_of_the_object has expanded your awareness.
+  AboutClasses#test_to_s_is_used_in_string_interpolation has expanded your awareness.
+  AboutClasses#test_inspect_provides_a_more_complete_string_version has expanded your awareness.
+  AboutClasses#test_all_objects_support_to_s_and_inspect has expanded your awareness.
+  AboutOpenClasses#test_as_defined_dogs_do_bark has damaged your karma.
 
-The Master says:
-  You have not yet reached enlightenment.
-  Do not lose hope.
+  The Master says:
+    You have not yet reached enlightenment.
+    You are progressing.
 
-The answers you seek...
-  TriangleError expected but nothing was raised.
+  The answers you seek...
+    <"FILL ME IN"> expected but was  <"WOOF">.
 
-Please meditate on the following code:
-    /home/majelix/src/mattjalexander/ruby_koans/src/about_triangle_project_2.rb:10:in `test_illegal_triangles_throw_exceptions'
+  Please meditate on the following code:
+    /Users/mattjalexander/src/mattjalexander/ruby_koans/src/about_open_classes.
 
-mwhen you lose, don't lose the lesson
-myour path thus far [............................X_____________________] 158/280
+  sleep is the best meditation
+  your path thus far [....................................X_____________] 206/280

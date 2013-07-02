@@ -30,7 +30,49 @@ require File.expand_path(File.dirname(__FILE__) + '/neo')
 # Your goal is to write the score method.
 
 def score(dice)
-  # You need to write this method
+  score = 0
+
+  if dice.length > 5
+    raise GreedError, "Too many dice. Don't get greedy."
+  end
+
+  dice.sort!
+
+  # test for triples
+  if dice.length >= 3 and
+     (dice[0] == dice[1]) and
+     (dice[1] == dice[2])
+      if dice[2] == 1
+        score += dice[2]*1000
+      else
+        score += dice[2]*100
+      end
+  end
+
+  # remove dice we've already scored
+  if score > 0
+    dice[0] = 0
+    dice[1] = 0
+    dice[2] = 0
+  end
+
+  # test for single 1s and 5s
+  dice.each do |die|
+    begin
+      if die == 1
+        score += 100
+      elsif die == 5
+        score += 50
+      end
+    rescue TypeError # support empty/non-integer scores by silently awarding them 0 points
+      score = score
+    end
+  end
+
+  return score
+end
+
+class GreedError < StandardError
 end
 
 class AboutScoringProject < Neo::Koan
